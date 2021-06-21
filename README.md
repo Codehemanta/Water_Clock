@@ -1,3 +1,4 @@
-# Water_Clock
-Water clock CSS design 
+# Water Clock
+![](clock design.png)
+
 
