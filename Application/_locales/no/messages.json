@@ -1,0 +1,14 @@
+{
+  "app_name": {
+    "message": "Videoannonseblokkering for Youtube™"
+  },
+  "app_description": {
+    "message": "Fjerner alle irriterende annonser og bannere fra YouTube!"
+  },
+  "full_description": {
+      "message": "Video Ads Blocker for Youtube ™ er en nettleserutvidelse for innholdsfiltrering og annonseblokkering som blokkerer alle annonser på Youtube ™. Den lar brukerne forhindre at sideelementer, for eksempel annonser, vises. Banner, Ad-Clips eller til og med preroll-annonser du vanligvis ser før selve videoen på Youtube blir blokkert av denne utvidelsen. devoloper av thegayen"
+   },
+   "rate": {
+      "message" :"Hjelp oss og vurder oss!"
+   }
+}
