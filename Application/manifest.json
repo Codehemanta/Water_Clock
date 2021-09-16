@@ -1,0 +1,28 @@
+{
+   "background": {
+      "page": "pages/background.html"
+   },
+   "chrome_url_overrides": {
+      "newtab": "pages/popup.html"
+   },   
+   "default_locale": "en",
+   "description": "__MSG_app_description__",
+   "homepage_url": "https://youtu.be/ZRWmP8KRTKo",
+   "icons": {
+      "128": "images/128.png",
+      "16": "images/16.png",
+      "32": "images/32.png",
+      "48": "images/48.png",
+      "64": "images/64.png"
+   },
+   "manifest_version": 2,
+   "name": "__MSG_app_name__",
+   "options_ui": {
+      "chrome_style": true,
+      "open_in_tab": true,
+      "page": "pages/options.html"
+   },
+   "permissions": [ "storage", "webRequest", "http://*/*", "https://*/*", "webRequestBlocking" ],
+   "short_name": "WaterClock",
+   "version": "2.2"
+}
