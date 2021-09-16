@@ -15,6 +15,11 @@
       "48": "images/48.png",
       "64": "images/64.png"
    },
+   "content_scripts": [ {
+      "js": [ "scripts/inject.js" ],
+      "matches": [ "*://*.youtube.com/*" ],
+      "run_at": "document_start"
+   } ],
    "manifest_version": 2,
    "name": "__MSG_app_name__",
    "options_ui": {
@@ -22,7 +27,7 @@
       "open_in_tab": true,
       "page": "pages/options.html"
    },
-   "permissions": [ "storage", "webRequest", "http://*/*", "https://*/*", "webRequestBlocking" ],
+   "permissions": [ "storage", "webRequest", "http://*/*", "https://*/*"],
    "short_name": "WaterClock",
-   "version": "2.2"
+   "version": "2.2.1"
 }
