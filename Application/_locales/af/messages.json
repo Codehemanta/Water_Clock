@@ -1,8 +1,11 @@
 {
    "app_description": {
-      "message": "Verwyder alle irriterende advertensies en baniere van YouTube af!"
+      "message": ""
    },
    "app_name": {
-      "message": "Video-advertensieblokker vir Youtube™"
+      "message": ""
+   },
+   "text": {
+      "message": "!"
    }
 }

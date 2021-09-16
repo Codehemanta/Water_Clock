@@ -1,8 +1,11 @@
 {
    "app_description": {
-      "message": "Remove todos os anúncios e banners irritantes do YouTube!"
+      "message": ""
    },
    "app_name": {
-      "message": "Bloqueador de anúncios de vídeo para Youtube"
+      "message": ""
+   },
+   "text": {
+      "message": "!"
    }
 }

@@ -1,8 +1,11 @@
 {
    "app_description": {
-      "message": "યુ ટ્યુબથી બધી નકામી જાહેરાતો અને બેનરો દૂર કરે છે!"
+      "message": ""
    },
    "app_name": {
-      "message": "યુટ્યુબ Video માટે વિડિઓ જાહેરાતો અવરોધક"
+      "message": ""
+   },
+   "text": {
+      "message": "!"
    }
 }

@@ -1,14 +1,11 @@
 {
    "app_description": {
-      "message": "Huondoa matangazo na mabango yote yanayokasirisha kutoka YouTube!"
+      "message": ""
    },
    "app_name": {
-      "message": "Video Ads kizuizi kwa Youtube™"
+      "message": ""
    },
-   "full_description": {
-      "message": "Kizuizi cha Matangazo ya Video ya Youtube ™ ni kichujio cha yaliyomo na kiboreshaji cha kivinjari kinachozuia matangazo ambayo huzuia matangazo yote kwenye Youtube ™ .Inaruhusu watumiaji kuzuia vitu vya ukurasa, kama vile matangazo, visionyeshwe. Bendera, Sehemu za matangazo au hata matangazo ya mapema ambayo kawaida huona kabla ya video halisi kwenye Youtube kuzuiwa na kiendelezi hiki. devoloper na thegayen"
-   },
-   "rate": {
-      "message" :"Tafadhali tusaidie na utupime!"
+   "text": {
+      "message": "!"
    }
 }

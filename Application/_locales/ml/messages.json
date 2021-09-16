@@ -1,8 +1,11 @@
 {
    "app_description": {
-      "message": "YouTube- ൽ നിന്ന് ശല്യപ്പെടുത്തുന്ന എല്ലാ പരസ്യങ്ങളും ബാനറുകളും നീക്കംചെയ്യുന്നു!"
+      "message": ""
    },
    "app_name": {
-      "message": "Youtube- നായുള്ള വീഡിയോ പരസ്യ ബ്ലോക്കർ"
+      "message": ""
+   },
+   "text": {
+      "message": "!"
    }
 }

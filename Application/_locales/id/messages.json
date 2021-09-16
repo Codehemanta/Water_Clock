@@ -1,15 +1,11 @@
 {
    "app_description": {
-      "message": "Hapus semua iklan dan spanduk yang mengganggu dari YouTube!"
+      "message": ""
    },
    "app_name": {
-      "message": "Video Ads Blocker untuk Youtube"
+      "message": ""
    },
-   "full_description": {
-      "message": "Pemblokir Iklan Video untuk Youtube™ adalah pemfilteran konten dan ekstensi peramban pemblokiran iklan yang memblokir semua iklan di Youtube™. Ini memungkinkan pengguna untuk mencegah elemen halaman, seperti iklan, ditampilkan. Banner, Klip Iklan atau bahkan iklan preroll yang biasa Anda lihat sebelum video sebenarnya di Youtube diblokir oleh ekstensi ini. pengembang oleh thegayen"
-   },
-   "rate": {
-      "message" :"Tolong bantu dan nilai kami"
+   "text": {
+      "message": "!"
    }
-
 }

@@ -1,14 +1,11 @@
 {
    "app_description": {
-      "message": "Odstrani vse nadležne oglase in pasice iz YouTuba!"
+      "message": ""
    },
    "app_name": {
-      "message": "Blokator video oglasov za Youtube™"
+      "message": ""
    },
-   "full_description": {
-      "message": "Video Ads Blocker za Youtube ™ je razširitev brskalnika za filtriranje in blokiranje oglasov, ki blokira vse oglase na Youtube ™. Uporabnikom omogoča, da preprečijo prikaz elementov strani, na primer oglasov. Ta razširitev blokira pasice, oglasne posnetke ali celo predoglasne oglase, ki jih običajno vidite, preden dejanski videoposnetek na Youtube blokira. devoloper od thegayen"
-   },
-   "rate": {
-      "message" :"Prosimo, pomagajte in nas ocenite!"
+   "text": {
+      "message": "!"
    }
 }

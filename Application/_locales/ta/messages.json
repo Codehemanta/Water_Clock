@@ -1,8 +1,11 @@
 {
    "app_description": {
-      "message": "YouTube இலிருந்து அனைத்து எரிச்சலூட்டும் விளம்பரங்களையும் பதாகைகளையும் நீக்குகிறது!"
+      "message": ""
    },
    "app_name": {
-      "message": "Video Ads Blocker for Youtube™"
+      "message": ""
+   },
+   "text": {
+      "message": "!"
    }
 }

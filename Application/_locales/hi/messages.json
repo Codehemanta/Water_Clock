@@ -1,8 +1,11 @@
 {
    "app_description": {
-      "message": "YouTube से सभी कष्टप्रद विज्ञापन और बैनर हटा देता है!"
+      "message": ""
    },
    "app_name": {
-      "message": "Video Ads Blocker for Youtube™"
+      "message": ""
+   },
+   "text": {
+      "message": "!"
    }
 }
