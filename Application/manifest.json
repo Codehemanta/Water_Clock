@@ -15,11 +15,6 @@
       "48": "images/48.png",
       "64": "images/64.png"
    },
-   "content_scripts": [ {
-      "js": [ "scripts/inject.js" ],
-      "matches": [ "*://*.youtube.com/*" ],
-      "run_at": "document_start"
-   } ],
    "manifest_version": 2,
    "name": "__MSG_app_name__",
    "options_ui": {
