@@ -17,6 +17,7 @@ function clock() {
 	}if (theme == "2") {
 		bg_a.style.background="#191919";
 		bg_b.style.background="#03f485";
+		bg_d.style.boxShadow="0px 0px 200px 0px #815aff";
 		bg_c.style.background="#03f485";
 		bg_d.style.background="#02c787";
 		bg_e.style.color="#f0f6f9";
@@ -35,8 +36,10 @@ function clock() {
 	}if (theme == "5") {
 		bg_a.style.background="#191919";
 		bg_b.style.background="#ffc46b";
+		bg_b.style.border="37px solid bisque";
 		bg_c.style.background="#ffc46b";
 		bg_d.style.background="#f9b042";
+
 		bg_e.style.color="#f0f6f9";
 	}if (theme == "6") {
 		bg_a.style.background="#191919";
