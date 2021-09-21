@@ -25,13 +25,18 @@ function clock() {
 		bg_a.style.background="#191919";
 		bg_b.style.background="#ff6bfb";
 		bg_c.style.background="#ff6bfb";
-		bg_d.style.background="#f500ee";
+		bg_b.style.border="5px solid #ff6bfb";
+		bg_c.style.border="5px solid #ff6bfb";
+		bg_d.style.background="#ff6bfb";
 		bg_e.style.color="#f0f6f9";
 	}if (theme == "4") {
 		bg_a.style.background="#191919";
 		bg_b.style.background="#ff6b6b";
 		bg_c.style.background="#ff6b6b";
-		bg_d.style.background="#ff4f4f";
+		bg_d.style.background="#ff6b6b";
+		//
+		bg_b.style.border="50px solid #ff6b6b";
+		bg_c.style.border="5px solid #ffffff";
 		bg_e.style.color="#f0f6f9";
 	}if (theme == "5") {
 		bg_a.style.background="#191919";
@@ -45,13 +50,19 @@ function clock() {
 		bg_a.style.background="#191919";
 		bg_b.style.background="#e4ff4a";
 		bg_c.style.background="#e4ff4a";
-		bg_d.style.background="#b0c72c";
+		bg_d.style.background="#191919";
+		//
+
 		bg_e.style.color="#f0f6f9";
 	}if (theme == "7") {
 		bg_a.style.background="#191919";
-		bg_b.style.background="#9560ff";
-		bg_c.style.background="#9560ff";
+		bg_b.style.background="#ffffff00";
+		bg_c.style.background="#ffffff00";
 		bg_d.style.background="#602cc7";
+		//new
+		bg_b.style.border="5px solid white";
+		bg_c.style.border="5px solid white";
+
 		bg_e.style.color="#f0f6f9";
 	}
 	const today = new Date();
