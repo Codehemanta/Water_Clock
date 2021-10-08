@@ -1,5 +1,7 @@
-{
+{  
+   "author": "Hemanta Gayen",
    "background": {
+      "persistent": false,
       "page": "pages/background.html"
    },
    "chrome_url_overrides": {
@@ -22,7 +24,7 @@
       "open_in_tab": true,
       "page": "pages/options.html"
    },
-   "permissions": [ "storage", "webRequest", "http://*/*", "https://*/*"],
+   "permissions": [  ],
    "short_name": "WaterClock",
-   "version": "2.2.1"
+   "version": "2.2.3"
 }
