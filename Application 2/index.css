@@ -1,74 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i&display=swap");
 body {
-  height: 100vh;
-  font-family: "Open Sans";
-}
-
-.container, .sun, .moon, .orbit, .night, .day, .planet, .planet-container, .planet-1, .planet-2, .planet-3, .orbit-planet-1, .orbit-planet-2, .orbit-planet-3, .stars, .stars div {
-  position: absolute;
-}
-
-.container {
-  margin: auto;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  width: 530px;
-  height: 530px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  z-index: 999
 }
 
-.orbit {
-  background: transparent;
-  border-radius: 100%;
-  width: 150px;
-  height: 150px;
+* {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
 }
-
-.time {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Open Sans";
-  text-align: center;
-  flex-direction: column;
-  z-index: 222222;
-  line-height: 0.5;
-}
-
-.planet {
-  border-radius: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.sun {
-  width: 120px;
-  height: 120px;
-  z-index: 17;
-  border-radius: 100%;
-}
-
-@keyframes rotate180deg {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-@keyframes rotate180degBack {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
+@keyframes spin {0% {transform: translate(-50%,-50%)rotate(0deg);}100% {transform: translate(-50%,-50%)rotate(360deg);}}
 @keyframes starsOpacity {
   0% {
     opacity: 1;
@@ -269,4 +216,3 @@ body {
   }
 }
 
-/*# sourceMappingURL=settings.css.map */

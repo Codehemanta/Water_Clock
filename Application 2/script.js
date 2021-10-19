@@ -1,4 +1,14 @@
-/*Clock start*/
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-158625140-1']);
+_gaq.push(['_trackPageview']);
+
+(function () {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = 'https://ssl.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+/*Water Clock start*/
 setInterval(clock, 1000);
 function clock() {
     const date = new Date();
@@ -23,23 +33,13 @@ function clock() {
         s = '0' + s;
 
     if (localStorage.getItem("timeType") == "12hours") {
-        document.querySelector(".hr").innerHTML = hours;
-        document.querySelector(".min").innerHTML = minutes;
+        document.querySelector(".time").innerText = hours+":"+minutes;
+
     } else if(localStorage.getItem("timeType") == "24hours"){
-        document.querySelector(".hr").innerHTML = h;
-        document.querySelector(".min").innerHTML = m;
+        document.querySelector(".time").innerText = h+":"+m;
     }
-  
-
-
-    document.querySelector('#hour').style.transform = `rotate(${hour}deg)`;
-    document.querySelector('#minute').style.transform = `rotate(${minute}deg)`;
-    document.querySelector('#second').style.transform = `rotate(${second}deg)`;
 }
 
-/*Clock end*/
-
-/*Theme select start */
 if (localStorage.getItem("defaultStyle") == null) {
     document.querySelector(".stylePoint").setAttribute("href", `galaxy.css`);
     localStorage.setItem("defaultStyle", `galaxy.css`);
@@ -48,6 +48,7 @@ if (localStorage.getItem("defaultStyle") == null) {
     document.querySelector(".stylePoint").setAttribute("href", `${localStorage.getItem("defaultStyle")}`);
     var themeId = localStorage.getItem("defaultStyle").split(".")[0];
     document.querySelector(`#${themeId}`).classList.add("active");
+    _gaq.push(['_trackEvent', themeId + "_theme", 'newtab_theme']);
 }
 
 document.querySelectorAll(".themes .theme").forEach(function (element) {
@@ -75,13 +76,10 @@ document.querySelectorAll(".themes .theme").forEach(function (element) {
         document.querySelector(".caption").innerText = event.currentTarget.id;
     });
     element.addEventListener("mouseout", function (event) {
-        document.querySelector(".caption").innerText = "Kluk";
+        document.querySelector(".caption").innerText = "WaterClock";
     });
 });
 
-/*Theme select end */
-
-/*Settings code starts*/
 document.querySelector(".closed").addEventListener("click", function () {
     if (!document.querySelector(".closed").classList.contains("hide")) {
         document.querySelector(".closed").classList.add("hide");
@@ -89,14 +87,7 @@ document.querySelector(".closed").addEventListener("click", function () {
         document.querySelector(".opened").classList.add("block");
     }
 });
-/*
-document.querySelector(".opened .navigation .close").addEventListener("click", function () {
-    if (!document.querySelector(".opened").classList.contains("hide")) {
-        document.querySelector(".opened").classList.add("hide");
-        document.querySelector(".closed").classList.remove("hide");
-        document.querySelector(".closed").classList.add("block");
-    }
-});*/
+
 var settings = document.querySelector(".opened");
 
 // Detect all clicks on the document
@@ -111,14 +102,10 @@ document.addEventListener("click", function (event) {
         document.querySelector(".closed").classList.add("show");
         var themeId = localStorage.getItem("defaultStyle").split(".")[0];
 
+        _gaq.push(['_trackEvent', themeId + "_theme", 'current_theme']);
     }
 
-    // If user clicks outside the element, hide it!
-    //settings.classList.add("hide");
-    //document.querySelector(".closed").classList.remove("hide");
-    //document.querySelector(".closed").classList.add("block");
 });
-/* Settings code ends */
 
 function trackButton(e) {
     _gaq.push(['_trackEvent', e.currentTarget.id + "_button", 'click']);
@@ -130,7 +117,7 @@ function trackClosedButton(e) {
 var buttons = document.querySelectorAll(".themes .theme");
 for (var i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener('click', trackButton);
-} //https://developer.chrome.com/extensions/tut_analytics
+} 
 
 document.querySelector("#settings").addEventListener("click", function (e) {
     trackClosedButton(e);
@@ -154,10 +141,12 @@ document.querySelector(".time-check .input").addEventListener("click", function 
         document.querySelector(".time-check").classList.add("active");
         document.querySelector(".checked").classList.remove("hide");  
         localStorage.setItem("timeType","24hours");  
+        _gaq.push(['_trackEvent', "24hours" + "_checked", 'current_time_zone']);
     }else{
         document.querySelector(".time-check").classList.remove("active");
         document.querySelector(".checked").classList.add("hide");  
         localStorage.setItem("timeType","12hours");  
+        _gaq.push(['_trackEvent', "12hours" + "_checked", 'current_time_zone']);
     }
 });
 

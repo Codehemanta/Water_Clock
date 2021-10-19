@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>New Tab</title>
-    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="settings.css">
     <link rel="stylesheet" class="stylePoint" href="">
 
@@ -14,30 +14,6 @@
 
 <body>
     <div class="container">
-        <div class="sun"></div>
-        <div class="orbit-1"></div>
-        <div class="orbit-2"></div>
-        <div class="orbit-3"></div>
-        <div class="planet-1" id="hour">
-            <div class="orbit-planet-1"></div>
-            <div class="orbit-planet-2"></div>
-            <div class="orbit-planet-3"></div>
-        </div>
-        <div class="planet-2" id="minute">
-            <div class="orbit-planet-1"></div>
-            <div class="orbit-planet-2"></div>
-            <div class="orbit-planet-3"></div>
-        </div>
-        <div class="planet-3" id="second">
-            <div class="orbit-planet-1"></div>
-            <div class="orbit-planet-2"></div>
-            <div class="orbit-planet-3"></div>
-        </div>
-        <div class="time">
-            <div class="hr"></div>
-            <br>
-            <div class="min"></div>
-        </div>
         <div class="stars">
             <div></div>
             <div></div>
@@ -61,19 +37,27 @@
             <div></div>
             <div></div>
         </div>
-
+        <div class="waterlayer_q"></div>
+        <div class="waterlayer_w"></div>
+        <div class="waterlayer_e"></div>
+        <div class="waterlayer_r"></div>
+        <div class="waterlayer_a"></div>
+        <div class="waterlayer_b"></div>
+        <div class="waterlayer_c"></div>
+        <div class="time"></div>
+        <div>
     </div>
     <div class="settings" id="settings">
         <div class="closed" id="closedSettings">
         </div>
         <div class="opened hide">
             <div class="theme-box">
-                <div class="caption">Kluk</div>
+                <div class="caption">WaterClock</div>
                 <div class="themes">
-                    <div class="theme" id="dark">
+                    <div class="theme" id="normal">
                         <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="48" height="48" rx="15" fill="#131313"/>
-                            <rect x="12" y="12" width="24" height="24" rx="12" fill="#090909"/>
+                            <rect width="48" height="48" rx="15" fill="#03a9f4"/>
+                            <rect x="12" y="12" width="24" height="24" rx="12" fill="#00bcd4"/>
                             <rect x="20" y="20" width="8" height="8" rx="4" fill="#C9C7C7"/>
                         </svg>                                                  
                     </div>
@@ -84,14 +68,11 @@
                             <rect x="20.5" y="20.5" width="7" height="7" rx="3.5" fill="#99F1BA" stroke="#4B4B4B"/>
                         </svg>                                                     
                     </div>
-                    <div class="theme" id="light">
+                    <div class="theme" id="orange">
                         <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="48" height="48" rx="12" fill="white"/>
-                            <circle cx="24" cy="12" r="2" transform="rotate(-180 24 12)" fill="#9AF4BF"/>
-                            <circle cx="24" cy="36" r="2" fill="#89C6F3"/>
-                            <circle cx="12" cy="24" r="2" transform="rotate(-180 12 24)" fill="#FABCD8"/>
-                            <rect x="12.5" y="12.5" width="23" height="23" rx="11.5" fill="white" stroke="white"/>
-                            <rect x="20" y="20" width="8" height="8" rx="4" fill="white"/>
+                            <rect width="48" height="48" rx="12" fill="#ffe4c4"/>
+                            <rect x="13" y="13" width="22" height="22" rx="11" fill="#f9b042" stroke="#ffc46b" stroke-width="2"/>
+                            <rect x="20.5" y="20.5" width="7" height="7" rx="3.5" fill="#f0f6f9"/>
                         </svg>                                 
                     </div>
                     <div class="theme" id="galaxy">
@@ -111,10 +92,6 @@
                     <div class="theme" id="boss">
                         <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="48" height="48" rx="12" fill="black"/>
-                            <circle cx="24" cy="12" r="2" transform="rotate(-180 24 12)" fill="#0065FF"/>
-                            <circle cx="24" cy="36" r="2" fill="#FF9100"/>
-                            <circle cx="12" cy="24" r="2" transform="rotate(-180 12 24)" fill="#FE0404"/>
-                            <rect x="12.5" y="12.5" width="23" height="23" rx="11.5" fill="black" stroke="black"/>
                             <rect x="20" y="20" width="8" height="8" rx="4" fill="#FFFEEF"/>
                         </svg>                                                       
                     </div>
@@ -159,8 +136,8 @@
                             </svg>  
                         </div>
                         <div class="links">
-                            <span><a id="zeynep_link" href="https://twitter.com/zeyneppozdem" target="_blank">@zeynep</a></span><br>
-                            <span><a id="guven_link" href="https://twitter.com/guvensozmen" target="_blank">@guven</a></span>
+                            <span><a id="youtube_link" href="https://twitter.com/zeyneppozdem" target="_blank">@youtube</a></span><br>
+                            <span><a id="help_link" href="https://twitter.com/guvensozmen" target="_blank">@help_me</a></span>
                         </div>
                     </div>   
                 </div>
