@@ -1,4 +1,0 @@
-# Water Clock
-![](clock.png)
-
-
