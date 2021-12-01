@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i&display=swap");
+.container  {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  height: 100vh;
+  background: transparent;
+}
+.time {
+    width: 400px;
+    height: 200px;
+    font-size: 130px;
+    text-align: center;
+    font-family: cursive;
+    color: #f0f6f9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.waterlayer_a{ 
+    width: 465px;
+    height: 465px;
+    position: absolute;
+    top: 50%;
+    background: #03a9f4;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50% 35% 40% 37%;
+    animation: spin 10s linear infinite;
+}
+.waterlayer_b{
+    width: 465px;
+    height: 465px;
+    position: absolute;
+    background: #03a9f4;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 40% 35% 50% 30%;
+    animation: spin 5s linear infinite;
+}
+.waterlayer_c{
+  width: 465px;
+  height: 465px;
+  position: absolute;
+  border-radius: 50%;
+  background: #00bcd4;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+@keyframes spin {0% {transform: translate(-50%,-50%)rotate(0deg);}100% {transform: translate(-50%,-50%)rotate(360deg);}}
+
+body {
+  background: #191919;
+}
