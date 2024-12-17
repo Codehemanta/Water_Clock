@@ -19,6 +19,6 @@ Clock for Microsoft Edge ™ is available in multiple languages.
 This digital clock is compatible with the main Microsoft Edge browser with Windows, Mac, Linux and other operating systems.
 
 It is also compatible with Chrome, Edge, Firefox, Safari and Opera browsers.
-![](banner\1280x800x1xM.PNG)
+![](banner/1280x800x1xM.PNG)
 
 
