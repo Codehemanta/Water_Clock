@@ -1,0 +1,18 @@
+{
+   "app_description": {
+      "message": "具有彩色设计的数字时钟并打开新标签时钟"
+   },
+   "app_name": {
+      "message": "Klak - 新标签"
+   },
+   "app_short_name":{
+      "message": "Klak"
+   },
+   "hours":{
+      "message": "24 小时"
+   },
+   "new_time":{
+      "message": "现在您可以选择 12 或 24 小时"
+   }
+
+}

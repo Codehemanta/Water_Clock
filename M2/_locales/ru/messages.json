@@ -1,0 +1,17 @@
+{
+   "app_description": {
+      "message": "Цифровые часы с красочным дизайном и открыть новую вкладку часов"
+   },
+   "app_name": {
+      "message": "Klak - Новая вкладка"
+   },
+   "app_short_name":{
+      "message": "Klak"
+   },
+   "hours":{
+      "message": "24 часа"
+   },
+   "new_time":{
+      "message": "Теперь вы можете выбрать 12 или 24 часа"
+   }
+}

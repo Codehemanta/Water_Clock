@@ -1,0 +1,65 @@
+.container  {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background: background: radial-gradient(25% 25% at 50% 25%, #F4EBE7 0%, #E4CFB7 0.01%, #F2EBE7 100%);
+}
+.time {
+    width: 400px;
+    height: 200px;
+    font-size: 130px;
+    text-align: center;
+    font-family: Monas , cursive;
+    color: #4B4B4B;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.waterlayer_a{ 
+    width: 580px;
+    height: 580px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #B8AFEF;
+    transform: translate(-50%,-50%);
+    border-radius: 50% 35% 40% 37%;
+    animation: spin 10s linear infinite;
+}
+.waterlayer_b{
+    width: 485px;
+    height: 485px;
+    position: absolute;
+    background:#F0A66F;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 40% 35% 50% 30%;
+    animation: spin 5s linear infinite;
+}
+.waterlayer_c{
+  width: 425px;
+  height: 425px;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  box-shadow: 0px 0px 50px #F2CE92;
+
+}
+
+
+.waterlayer_a, .waterlayer_b, .waterlayer_c {
+  border: 10px solid #4B4B4B;
+}
+
+.waterlayer_c{
+  background: #99F1BA;
+  color: #4B4B4B;
+}
+

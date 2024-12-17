@@ -1,0 +1,18 @@
+{
+   "app_description": {
+      "message": "Digital Clock With Colorful Designs and open new tab clock"
+   },
+   "app_name": {
+      "message": "Klak - New Tab"
+   },
+   "app_short_name":{
+      "message": "Klak"
+   },
+   "hours":{
+      "message": "24 hours"
+   },
+   "new_time":{
+      "message": "Now you can select 12 or 24 hours"
+   }
+
+}

@@ -1,0 +1,25 @@
+{
+   "background": {
+      "page": "pages/background.html"
+   },
+   "browser_action": {
+      "default_icon": "data/icons/128.png",
+      "default_title": "__MSG_app_short_name__"
+   }, 
+   "default_locale": "en",
+   "description": "__MSG_app_description__",
+   "homepage_url": "https://www.codehemu.com/2022/04/water-clock.html",
+   "icons": {
+      "128": "data/icons/128.png",
+      "32": "data/icons/32.png",
+      "48": "data/icons/48.png",
+      "64": "data/icons/64.png"
+   },
+   "chrome_url_overrides": {
+        "newtab": "data/interface/index.html"
+   },
+   "name": "__MSG_app_name__",
+   "manifest_version": 2,
+   "permissions": ["storage", "activeTab"],
+   "version": "3.2"
+}

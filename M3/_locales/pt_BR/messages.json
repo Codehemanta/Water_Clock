@@ -1,0 +1,18 @@
+{
+   "app_description": {
+      "message": "Relógio digital com desenhos coloridos e abrir nova aba relógio"
+   },
+   "app_name": {
+      "message": "Klak - Nova aba"
+   },
+   "app_short_name":{
+      "message": "Klak"
+   },
+   "hours":{
+      "message": "24 horas"
+   },
+   "new_time":{
+      "message": "Agora você pode selecionar 12 ou 24 horas"
+   }
+
+}

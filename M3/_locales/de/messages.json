@@ -1,0 +1,18 @@
+{
+   "app_description": {
+      "message": "Digitaluhr mit farbenfrohen Designs und neuer Tab-Uhr öffnen"
+   },
+   "app_name": {
+      "message": "Klak - Neuer Tab"
+   },
+   "app_short_name":{
+      "message": "Klak"
+   },
+   "hours":{
+      "message": "24 Stunden"
+   },
+   "new_time":{
+      "message": "Jetzt können Sie 12 oder 24 Stunden auswählen"
+   }
+
+}
